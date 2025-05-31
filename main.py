@@ -63,7 +63,7 @@ def display_weather(weather, country):
     print(f'\t- Cloudiness: {weather['clouds']['all']}%')
 
 
-key = 'deebc99eaabe2daa3c91fd15635cb964'
+key = ''
 city_name, country_code = get_area_details()
 location_info = process_location_request(city_name, country_code, key)
 
